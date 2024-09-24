@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-----BOOTSTRAP----->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-----GOOGLE FONTS----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-----ESTILOS PERSONALIZADOS----->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <!-----MENÚ----->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+        <div class="container">
+            <!----- ICONO ESCRITORIO DERECHA ----->
+            <a class="nav-link d-lg-none" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="2" fill="none" />
+                    <path d="M8 16L8 8L12 12L16 8L16 16" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
+            <button class="navbar-toggler navbar-toogle_custom" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6h18M3 12h18M3 18h18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-3 p-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="#introduccion">Yo 😉</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="#proyectos">Trabajos</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" href="#contacto">Hablemos!</a>
+                    </li>
+                </ul>
+            </div>
+            <!----- ICONO MOBILE IZQUIERDA  ----->
+            <a class="nav-link ms-auto d-none d-lg-block" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="2" fill="none" />
+                    <path d="M8 16L8 8L12 12L16 8L16 16" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-----PRESENTACION----->
+    <section id="introduccion" class="py-5">
+        <div class="container py-2">
+            <div class="row p-4 p-lg-2">
+                <div class="col-12 col-lg-12">
+                    <h2>Hola soy <span class="subyarado">Marco Espinosa</span>👋</h2>
+                    <h6 class="mb-3">UI-DEV-SCRUM</h6>
+                    <p>Soy diseñador por vocación y mi pasión por el aprendizaje me ha llevado a especializarme en
+                        Diseño
+                        UX/UI y Desarrollo Web. En la actualidad, ejerzo como Scrum Master, donde aplico mis habilidades
+                        para liderar equipos y optimizar procesos.</p>
+                </div>
+                <!-- <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                    <div class="img-container">
+                        <img src="./assets/img/perfil.jpg" alt="Perfil">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-----HABILIDADES----->
+    <section id="habilidades" class="py-5">
+        <div class="container py-2">
+            <div class="row p-4 p-lg-2 mb-5">
+                <div class="col-12">
+                    <h4>Mis Habilidades 💪</h4>
+                    <p>A lo largo de mi carrera, he desarrollado un conjunto variado de habilidades en diseño y
+                        desarrollo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Habilidad 1 -->
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="p-4 card-habilidades">
+                        <h5>Diseño UX/UI</h5>
+                        <p>Experiencia en crear interfaces intuitivas y agradables para el usuario.</p>
+                        <div class="col-12 text-center">
+                            <!-- camnbie de color a todos los svgs del sitio ya que los encontre en colores-->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 121.25" fill="none" x="0px" y="0px"
+                                width="55" height="55">
+                                <path fill="#808080"
+                                    d="M23.1439 14.2097C25.7213 11.6322 29.9002 11.6323 32.4777 14.2097L34.6765 16.4085L27.108 23.9769C26.0927 24.9922 26.0927 26.6385 27.108 27.6538C28.1234 28.6692 29.7696 28.6692 30.785 27.6538L38.3534 20.0854L40.3859 22.1179C40.8735 22.6055 41.1474 23.2668 41.1474 23.9564C41.1474 24.6459 40.8735 25.3072 40.3859 25.7948L25.9313 40.2494C24.9159 41.2647 23.2697 41.2647 22.2543 40.2494L14.3462 32.3412C11.7687 29.7638 11.7687 25.5849 14.3462 23.0074L23.1439 14.2097Z" />
+                                <path fill="#808080"
+                                    d="M68.907 54.3162C69.9224 53.3008 71.5686 53.3008 72.584 54.3162L75.7025 57.4347L67.7719 65.3653C66.7565 66.3807 66.7565 68.0269 67.7719 69.0423C68.7873 70.0576 70.4335 70.0576 71.4489 69.0423L79.3795 61.1117L81.9399 63.6721C84.5173 66.2495 84.5173 70.4284 81.9399 73.0059L73.1422 81.8036C70.5647 84.381 66.3858 84.381 63.8084 81.8036L54.4525 72.4477C53.9649 71.9601 53.691 71.2988 53.691 70.6092C53.691 69.9197 53.9649 69.2583 54.4525 68.7707L68.907 54.3162Z" />
+                                <path fill="#808080"
+                                    d="M56.8062 16.988C62.6624 11.1318 72.1496 11.1318 78.0059 16.988C83.8621 22.8443 83.8621 32.3314 78.0059 38.1877L76.0261 40.1674L54.8282 18.9695L56.8062 16.988Z" />
+                                <path fill="#808080"
+                                    d="M51.1545 22.6497L23.2667 50.5864C23.5304 50.6414 23.8007 50.7042 24.0756 50.7758C25.8457 51.2372 27.9884 52.115 29.7064 53.833C31.2456 55.3722 32.1076 57.25 32.6003 58.8823C32.9294 59.973 33.1119 61.0144 33.2131 61.8819C33.5613 61.9244 33.9342 61.9799 34.3244 62.0519C36.3082 62.4184 39.0574 63.2735 41.1603 65.3764C43.1183 67.3344 43.9946 69.8527 44.4018 71.7917L72.3492 43.8444L51.1545 22.6497Z" />
+                                <path fill="#808080"
+                                    d="M39.588 75.686C39.5753 75.9634 39.6066 76.2328 39.6758 76.4873C38.8223 77.213 37.7956 77.7114 36.6913 77.9316L15.9939 82.0582C15.1416 82.2281 14.2608 81.961 13.6465 81.3463C13.0322 80.7316 12.7656 79.8506 12.936 78.9984L17.0625 58.366C17.2896 57.2307 17.8107 56.1777 18.5704 55.3107C18.8338 55.3851 19.1136 55.4189 19.402 55.405L19.3976 55.4053L19.431 55.4042C19.4665 55.4033 19.5274 55.4022 19.6107 55.4023C19.7779 55.4024 20.0324 55.4073 20.3502 55.4277C20.993 55.4689 21.8569 55.5712 22.7639 55.8077C24.0312 56.138 25.2022 56.6827 26.0295 57.51C26.7663 58.2468 27.2824 59.2593 27.622 60.3847C27.9163 61.3598 28.0475 62.319 28.1019 63.0476C28.1288 63.407 28.1361 63.6981 28.1371 63.8911C28.1375 63.9874 28.1364 64.0584 28.1354 64.1003L28.1344 64.1382C28.1317 64.1943 28.1308 64.2501 28.1317 64.3055C28.1307 64.3629 28.1317 64.4209 28.1345 64.4791C28.2049 65.9104 29.4199 67.0142 30.8502 66.9487L30.8701 66.948L30.9048 66.9471L30.9925 66.9459C31.1089 66.945 31.2906 66.9462 31.5231 66.9561C31.8785 66.9711 32.3415 67.0059 32.8642 67.0809C33.0306 67.1048 33.203 67.1327 33.3799 67.1654C34.9083 67.4477 36.4544 68.0244 37.4833 69.0534C38.5123 70.0823 39.089 71.6284 39.3713 73.1568C39.5066 73.8895 39.5608 74.5451 39.5806 75.0136C39.5954 75.3621 39.5907 75.5977 39.5887 75.6666L39.588 75.686Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidad 2 -->
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="p-4 card-habilidades">
+                        <h5>Desarrollo Web</h5>
+                        <p>Habilidad en HTML, CSS, JavaScript y frameworks modernos.</p>
+                        <div class="col-12 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="37" height="37"
+                                viewBox="0 0 50 50">
+                                <path
+                                    d="M 45.273438 2.324219 C 45.085938 2.117188 44.816406 2 44.535156 2 L 5.464844 2 C 5.183594 2 4.914063 2.117188 4.726563 2.324219 C 4.535156 2.53125 4.441406 2.808594 4.46875 3.089844 L 7.988281 42.515625 C 8.023438 42.929688 8.3125 43.273438 8.710938 43.390625 L 24.722656 47.960938 C 24.808594 47.988281 24.902344 48 24.996094 48 C 25.089844 48 25.179688 47.988281 25.269531 47.960938 L 41.292969 43.390625 C 41.691406 43.273438 41.976563 42.929688 42.015625 42.515625 L 45.53125 3.089844 C 45.558594 2.808594 45.464844 2.53125 45.273438 2.324219 Z M 36.847656 15.917969 L 18.035156 15.917969 L 18.484375 21.007813 L 36.394531 21.007813 L 35.050781 36.050781 L 24.992188 39.089844 L 24.894531 39.058594 L 14.953125 36.046875 L 14.410156 29.917969 L 19.28125 29.917969 L 19.492188 32.296875 L 25.050781 33.460938 L 30.507813 32.296875 L 31.089844 25.859375 L 14.046875 25.859375 L 12.722656 11.054688 L 37.28125 11.054688 Z"
+                                    fill="#808080"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="45" height="45"
+                                viewBox="0 0 50 50">
+                                <path fill="#808080" fill-rule="evenodd"
+                                    d="M 42 6 L 39 40 L 25 44 L 11 40 L 8 6 Z M 16.800781 28 L 20.800781 28 L 20.898438 30.5 L 25 31.898438 L 29.101563 30.5 L 29.398438 26 L 20.601563 26 L 20.398438 22 L 29.601563 22 L 29.898438 18 L 16.101563 18 L 15.800781 14 L 34.101563 14 L 33.601563 22 L 32.898438 33.5 L 25 36.101563 L 17.101563 33.5 Z">
+                                </path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                                viewBox="0 0 50 50">
+                                <path fill="#808080"
+                                    d="M 43.335938 4 L 6.667969 4 C 5.195313 4 4 5.195313 4 6.667969 L 4 43.332031 C 4 44.804688 5.195313 46 6.667969 46 L 43.332031 46 C 44.804688 46 46 44.804688 46 43.335938 L 46 6.667969 C 46 5.195313 44.804688 4 43.335938 4 Z M 27 36.183594 C 27 40.179688 24.65625 42 21.234375 42 C 18.140625 42 15.910156 39.925781 15 38 L 18.144531 36.097656 C 18.75 37.171875 19.671875 38 21 38 C 22.269531 38 23 37.503906 23 35.574219 L 23 23 L 27 23 Z M 35.675781 42 C 32.132813 42 30.121094 40.214844 29 38 L 32 36 C 32.816406 37.335938 33.707031 38.613281 35.589844 38.613281 C 37.171875 38.613281 38 37.824219 38 36.730469 C 38 35.425781 37.140625 34.960938 35.402344 34.199219 L 34.449219 33.789063 C 31.695313 32.617188 29.863281 31.148438 29.863281 28.039063 C 29.863281 25.179688 32.046875 23 35.453125 23 C 37.878906 23 39.621094 23.84375 40.878906 26.054688 L 37.910156 27.964844 C 37.253906 26.789063 36.550781 26.328125 35.453125 26.328125 C 34.335938 26.328125 33.628906 27.039063 33.628906 27.964844 C 33.628906 29.109375 34.335938 29.570313 35.972656 30.28125 L 36.925781 30.691406 C 40.171875 32.078125 42 33.496094 42 36.683594 C 42 40.117188 39.300781 42 35.675781 42 Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidad 3 -->
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="p-4 card-habilidades">
+                        <h5>Scrum Master</h5>
+                        <p>Capacidad para liderar equipos y optimizar procesos de desarrollo ágil.</p>
+                        <div class="col-12 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 50 50" x="0px"
+                                y="0px" viewBox="0 0 34 42.5" enable-background="new 0 0 34 34" xml:space="preserve">
+                                <script xmlns="" />
+                                <g>
+                                    <path fill="#808080"
+                                        d="M24.16,19.16c-0.12-0.19-0.25-0.37-0.39-0.55c-0.2-0.28-0.44-0.55-0.76-0.87   c-0.29-0.29-0.59-0.55-0.91-0.78c-1.46-1.12-3.24-1.71-5.1-1.71c-1.88,0-3.66,0.61-5.11,1.71c-0.6,0.45-1.14,0.99-1.61,1.6   c-0.15,0.19-0.29,0.39-0.43,0.6c-0.87,1.35-1.35,2.96-1.35,4.59v0.5v3v0.5c0,0.83,0.67,1.5,1.5,1.5h14c0.83,0,1.5-0.67,1.5-1.5   v-0.5v-3.5C25.5,22.1,25.02,20.49,24.16,19.16z" />
+                                    <path fill="#808080"
+                                        d="M21.5,9.25c0,2.48-2.02,4.5-4.5,4.5s-4.5-2.02-4.5-4.5c0-2.49,2.02-4.5,4.5-4.5S21.5,6.76,21.5,9.25z" />
+                                    <path fill="#808080"
+                                        d="M31,9.25c0,2.48-2.02,4.5-4.5,4.5S22,11.73,22,9.25c0-2.49,2.02-4.5,4.5-4.5S31,6.76,31,9.25z" />
+                                    <path fill="#808080"
+                                        d="M33,21.75v4c0,0.83-0.67,1.5-1.5,1.5H27v-3.5c0-1.91-0.56-3.83-1.57-5.39c-0.15-0.23-0.31-0.45-0.44-0.62   c-0.24-0.34-0.52-0.66-0.92-1.06c-0.23-0.23-0.46-0.44-0.69-0.63c0.94-0.52,2.01-0.8,3.12-0.8c1.73,0,3.36,0.67,4.59,1.89   C32.33,18.39,33,20.02,33,21.75z" />
+                                    <path fill="#808080"
+                                        d="M10.63,16.05c-0.56,0.46-1.08,1-1.53,1.58c-0.17,0.22-0.34,0.45-0.51,0.72C7.55,19.96,7,21.83,7,23.75   v3.5H2.5c-0.83,0-1.5-0.67-1.5-1.5v-4c0-3.58,2.92-6.5,6.5-6.5C8.61,15.25,9.68,15.53,10.63,16.05z" />
+                                    <path fill="#808080"
+                                        d="M12,9.25c0,2.48-2.02,4.5-4.5,4.5S3,11.73,3,9.25c0-2.49,2.02-4.5,4.5-4.5S12,6.76,12,9.25z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----HERRAMIENTAS----->
+    <section id="herramientas" class="py-5">
+        <div class="container py-2">
+            <div class="row p-4 p-lg-2 mb-5">
+                <div class="col-12">
+                    <h4>Herramientas 🔨</h4>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Habilidad 1 -->
+                <div class="col-12 col-md-12 mb-3">
+                    <div class="p-4">
+                        <ul class="list-group list-group-horizontal list-herramientas">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 50 50">
+                                    <path fill="#808080"
+                                        d="M 35.445312 2.0117188 C 35.056812 2.0253438 34.669266 2.1265938 34.322266 2.3085938 C 35.227266 2.7565937 35.865703 3.6414062 35.970703 4.6914062 C 35.988703 4.8174062 36 4.9322812 36 4.9882812 L 36 44.988281 C 36 46.174281 35.306594 47.190734 34.308594 47.677734 C 34.672594 47.876734 35.079 47.988281 35.5 47.988281 C 35.873 47.988281 36.224969 47.901859 36.542969 47.755859 L 36.544922 47.759766 C 38.152922 46.927766 46.192281 42.764703 46.488281 42.595703 C 47.421281 42.060703 48 41.061281 48 39.988281 L 48 9.9882812 C 48 8.9902813 47.505734 8.0619062 46.677734 7.5039062 C 46.357734 7.2869063 36.582031 2.2363281 36.582031 2.2363281 L 36.580078 2.2402344 C 36.224078 2.0727344 35.833813 1.9980938 35.445312 2.0117188 z M 33 3.9882812 C 32.744125 3.9882812 32.487969 4.08575 32.292969 4.28125 C 32.292969 4.28125 26.568469 10.718844 20.230469 17.839844 L 27.724609 23.970703 L 34 18.685547 L 34 4.9882812 C 34 4.7322812 33.902031 4.47625 33.707031 4.28125 C 33.511531 4.08575 33.255875 3.9882812 33 3.9882812 z M 8 10.988281 C 7.844 10.988281 7.5538594 10.988844 6.2558594 11.589844 C 5.5408594 11.920844 3.0507812 13.228516 3.0507812 13.228516 C 2.7207812 13.407516 2.4545781 13.687719 2.2675781 14.011719 C 2.3435781 13.999719 2.4190469 13.988281 2.4980469 13.988281 L 2.5 13.988281 C 3.168 13.988281 3.5776562 14.454469 3.7226562 14.605469 C 3.7226562 14.605469 31.929969 45.332313 32.292969 45.695312 C 32.487969 45.890313 32.742047 45.988281 32.998047 45.988281 C 33.254047 45.988281 33.510078 45.890313 33.705078 45.695312 C 33.900078 45.500312 34 45.244281 34 44.988281 L 34 31.658203 C 34 31.658203 9.53375 11.661813 9.34375 11.507812 C 8.97575 11.173813 8.497 10.988281 8 10.988281 z M 2.1992188 15.988281 C 2.0892188 15.988281 2 16.078453 2 16.189453 L 2 34.794922 C 2 34.901922 2.0873125 34.990234 2.1953125 34.990234 C 2.2513125 34.990234 2.3009375 34.964781 2.3359375 34.925781 L 8 28.638672 L 8 22.007812 L 2.3417969 16.046875 C 2.3057969 16.010875 2.2542188 15.988281 2.1992188 15.988281 z M 12.253906 26.802734 C 12.253906 26.802734 3.6585469 36.452781 3.5605469 36.550781 C 3.2895469 36.821781 2.915 36.988281 2.5 36.988281 C 2.422 36.988281 2.3464844 36.978797 2.2714844 36.966797 C 2.4734844 37.317797 2.7697188 37.607156 3.1367188 37.785156 L 3.1328125 37.791016 C 4.0028125 38.233016 6.8739531 39.691703 7.2519531 39.845703 C 7.4899531 39.940703 7.741 39.988281 8 39.988281 C 8.347 39.988281 8.6900469 39.898656 8.9980469 39.722656 C 9.0210469 39.709656 17.527344 32.552734 17.527344 32.552734 L 12.253906 26.802734 z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                                    viewBox="0 0 50 50">
+                                    <path fill="#808080"
+                                        d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z">
+                                    </path>
+                                    <path fill="#5f5e5e"
+                                        d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z">
+                                    </path>
+                                    <path fill="#6a6868"
+                                        d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z">
+                                    </path>
+                                </svg>
+                            </li>
+                            <!-- Desde acá ya los llame desde la carpeta img por que eran la mayoria svgs más con más líneas-->
+                            <li>
+                                <img src="./assets/img/sql-database-generic-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/github-142-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/sourcetree-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/adobe-photoshop-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/illustrator-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/adobe-xd-svgrepo-com.svg" class="" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/img/postman-svgrepo-com.svg" class="" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----PROYECTOS----->
+    <!-----Por cambio de pc no cuento por el momento con imagenes de proyectos trabajados----->
+    <section id="proyectos" class="py-5">
+        <div class="container py-2">
+            <div class="row p-4 p-lg-2 mb-5">
+                <div class="col-12">
+                    <h4>Galería de proyectos 🖥️</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="galeria-item">
+                        <img src="https://via.placeholder.com/400x300" alt="Imagen 1" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="galeria-item">
+                        <img src="https://via.placeholder.com/400x300" alt="Imagen 2" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="galeria-item">
+                        <img src="https://via.placeholder.com/400x300" alt="Imagen 3" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="galeria-item">
+                        <img src="https://via.placeholder.com/400x300" alt="Imagen 4" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="galeria-item">
+                        <img src="https://via.placeholder.com/400x300" alt="Imagen 5" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----CONTACTO----->
+    <section id="contacto" class="py-5">
+        <div class="container py-2">
+            <div class="row p-4 p-lg-2 mb-5">
+                <div class="col-12">
+                    <h4>Contáctame 📧</h4>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Habilidad 1 -->
+                <div class="col-12 col-md-6 mb-3 d-flex align-items-center pt-4 frase-form order-md-2 px-md-5">
+                    <div>
+                        <h4 class="mb-3 bold-text">Hablemos de tus ideas y proyectos</h4>
+                        <p>Si tienes alguna pregunta, propuesta de proyecto, o deseas conectar para discutir sobre tecnología y desarrollo de software, no dudes en contactarme. 
+                            Completa el formulario y te responderé pronto. ¡Espero saber de ti! 😁</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="p-4">
+                        <!-- Formulario sin validación de expresión regular -->
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="inputNombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="inputNombre" aria-describedby="nombreHelp">
+                                <div id="error-nombre" class="form-text text-danger"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputApellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="inputApellido" aria-describedby="apellidoHelp">
+                                <div id="error-apellido" class="form-text text-danger"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label id="lbl-email" for="txt-email" class="form-label">Correo Electrónico</label>
+                                <input type="email" id="txt-email" class="form-control">
+                                <div id="error-email" class="form-text text-danger"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="txt-comentarios" id="lbl-comentarios" class="form-label">Comentario</label>
+                                <textarea class="form-control" id="txt-comentarios" rows="3"></textarea>
+                                <div id="error-comentarios" class="form-text text-danger"></div>
+                            </div>
+                            <button type="submit" class="btn btn-enviar btn-primary">Enviar</button>
+                            <button type="button" class="btn btn-limpiar btn-info" id="btn-limpiar">Limpiar</button>
+                        </form>
+                    </div>
+                    <div id="alert-send" class="alert alert-info mb-5 d-none" role="alert">
+                        Sus datos han sido enviados exitosamente!! 👍
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="./assets/main.js"></script>
+</body>
+
+</html>
